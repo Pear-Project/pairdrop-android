@@ -6,7 +6,7 @@
         All translations for all KDE apps are handled by the [localization team](https://l10n.kde.org).
         We really appreciate your translations, but make sure to submit them by working with the proper team!
   -->
-    <string name="kde_connect">KDE Connect</string>
+    <string name="kde_connect">PairDrop</string>
     <string name="foreground_notification_no_devices">Not connected to any device</string>
     <string name="foreground_notification_devices">Connected to: %s</string>
     <string name="foreground_notification_send_clipboard">Send Clipboard</string>
@@ -48,12 +48,12 @@
     <string name="open_settings">Open settings</string>
     <string name="no_permissions">You need to grant permission to access notifications</string>
     <string name="no_permission_mprisreceiver">To be able to control your media players you need to grant access to the notifications</string>
-    <string name="no_permissions_remotekeyboard">To receive keypresses you need to activate the KDE Connect Remote Keyboard</string>
+    <string name="no_permissions_remotekeyboard">To receive keypresses you need to activate the  PairDrop Remote Keyboard</string>
     <string name="send_ping">Send ping</string>
     <string name="open_mpris_controls">Multimedia control</string>
     <string name="remotekeyboard_editing_only" translatable="false">remotekeyboard_editing_only</string>
     <string name="remotekeyboard_editing_only_title" translatable="true">Handle remote keys only when editing</string>
-    <string name="remotekeyboard_not_connected" translatable="true">There is no active remote keyboard connection, establish one in kdeconnect</string>
+    <string name="remotekeyboard_not_connected" translatable="true">There is no active remote keyboard connection, establish one in pairdrop</string>
     <string name="remotekeyboard_connected" translatable="true">Remote keyboard connection is active</string>
     <string name="remotekeyboard_multiple_connections" translatable="true">There is more than one remote keyboard connection, select the device to configure</string>
     <string name="open_mousepad">Remote input</string>
@@ -146,7 +146,7 @@
     <string name="error_canceled_by_user">Canceled by user</string>
     <string name="error_canceled_by_other_peer">Canceled by other peer</string>
     <string name="encryption_info_title">Encryption Info</string>
-    <string name="encryption_info_msg_no_ssl">The other device doesn\'t use a recent version of KDE Connect, using the legacy encryption method.</string>
+    <string name="encryption_info_msg_no_ssl">The other device doesn\'t use a recent version of PairDrop, using the legacy encryption method.</string>
     <string name="my_device_fingerprint">SHA1 fingerprint of your device certificate is:</string>
     <string name="remote_device_fingerprint">SHA256 fingerprint of remote device certificate is:</string>
     <string name="pair_requested">Pair requested</string>
@@ -222,7 +222,7 @@
         <item>120000000</item>
     </string-array>
     <string name="mpris_notification_settings_title">Show media control notification</string>
-    <string name="mpris_notification_settings_summary">Allow controlling your media players without opening KDE Connect</string>
+    <string name="mpris_notification_settings_summary">Allow controlling your media players without opening PairDrop</string>
     <string name="mpris_notification_key" translatable="false">mpris_notification_enabled</string>
     <string name="share_to">Share To…</string>
     <string name="protocol_version_newer">This device uses a newer protocol version</string>
@@ -277,8 +277,8 @@
     <string name="no_players_connected">No players found</string>
     <string name="send_files">Send files</string>
 
-    <string name="pairing_title">KDE Connect Devices</string>
-    <string name="pairing_description">Other devices running KDE Connect in your same network should appear here.</string>
+    <string name="pairing_title">Connect Devices</string>
+    <string name="pairing_description">Other PairDrop enabled devices in your same network should appear here.</string>
     <string name="device_rename_title">Rename device</string>
     <string name="device_rename_confirm">Rename</string>
     <string name="refresh">Refresh</string>
@@ -289,7 +289,7 @@
     <string name="pref_plugin_telepathy">Send SMS</string>
     <string name="pref_plugin_telepathy_desc">Send text messages from your desktop</string>
     <string name="pref_plugin_telepathy_mms">Send MMS</string>
-    <string name="pref_plugin_telepathy_mms_desc">To be able to send MMS from KDE Connect you need to set it as the default SMS app.</string>
+    <string name="pref_plugin_telepathy_mms_desc">To be able to send MMS from PairDrop you need to set it as the default SMS app.</string>
     <string name="findmyphone_title">Find my phone</string>
     <string name="findmyphone_title_tablet">Find my tablet</string>
     <string name="findmyphone_title_tv">Find my TV</string>
@@ -321,7 +321,7 @@
 
     <string name="add_command">Add a command</string>
     <string name="addcommand_explanation">There are no commands registered</string>
-    <string name="addcommand_explanation2">You can add new commands in the KDE Connect System Settings</string>
+    <string name="addcommand_explanation2">You can add new commands in the PairDrop System Settings</string>
     <string name="add_command_description">You can add commands on the desktop</string>
     <string name="pref_plugin_mprisreceiver">Media Player Control</string>
     <string name="pref_plugin_mprisreceiver_desc">Control your phone\'s media players from another device</string>
@@ -371,7 +371,7 @@
     <string name="findmyphone_preference_key_ringtone" translatable="false">findmyphone_ringtone</string>
 
     <string name="no_app_for_opening">No suitable app found to open this file</string>
-    <string name="remote_keyboard_service">KDE Connect Remote Keyboard</string>
+    <string name="remote_keyboard_service">PairDrop Remote Keyboard</string>
     <string name="presenter_pointer">Pointer</string>
 
     <string name="trusted_networks">Trusted networks</string>
@@ -443,11 +443,11 @@
       <item>dark</item>
     </string-array>
     <string name="report_bug">Report Bug</string>
-    <string name="report_bug_url" translatable="false">https://bugs.kde.org/enter_bug.cgi?product=kdeconnect&amp;component=android-application</string>
+    <string name="report_bug_url" translatable="false">https://bugs.pearos.xyz</string>
     <string name="donate">Donate</string>
-    <string name="donate_url" translatable="false">https://kde.org/community/donations/?app=kdeconnect-android</string>
+    <string name="donate_url" translatable="false">https://kde.org/community/donations/</string>
     <string name="source_code">Source Code</string>
-    <string name="source_code_url" translatable="false">https://invent.kde.org/network/kdeconnect-android/</string>
+    <string name="source_code_url" translatable="false">https://github.com/alxb421/PairDrop</string>
     <string name="licenses">Licenses</string>
 
 </resources>

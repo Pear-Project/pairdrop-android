@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.atteo.classindex:classindex:3.6">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.atteo.classindex/classindex/3.6/907f96dc0dac8fa716a75ba144de7347696e62b6/classindex-3.6.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.atteo.classindex/classindex/3.6/90500fa4d4fc6abd971a0520f891ccd4c4333a80/classindex-3.6-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.atteo.classindex/classindex/3.6/c4366f27cf7207d16dd54e3b03c7060f6ec20e13/classindex-3.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

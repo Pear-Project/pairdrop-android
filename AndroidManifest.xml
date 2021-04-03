@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="org.kde.kdeconnect_tp"
-    android:versionCode="11600"
-    android:versionName="1.16.0">
+    android:versionCode="11100"
+    android:versionName="11.1.0">
 
     <supports-screens
         android:anyDensity="true"
@@ -47,7 +47,7 @@
 
     <application
         android:icon="@drawable/icon"
-        android:label="KDE Connect"
+        android:label="PairDrop"
         android:supportsRtl="true"
         android:allowBackup="false"
         android:networkSecurityConfig="@xml/network_security_config"
@@ -90,7 +90,7 @@
 
         <activity
             android:name="org.kde.kdeconnect.UserInterface.MainActivity"
-            android:label="KDE Connect"
+            android:label="PairDrop"
             android:theme="@style/KdeConnectTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -122,7 +122,7 @@
         </activity>
         <activity
             android:name="org.kde.kdeconnect.Plugins.SharePlugin.SendFileActivity"
-            android:label="KDE Connect"
+            android:label="PairDrop"
             android:parentActivityName="org.kde.kdeconnect.UserInterface.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -283,7 +283,7 @@
         </activity>
         <activity
             android:name="org.kde.kdeconnect.Plugins.SharePlugin.ShareActivity"
-            android:label="KDE Connect">
+            android:label="PairDrop">
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
 
@@ -312,7 +312,7 @@
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="org.kde.kdeconnect_tp.fileprovider"
+            android:authorities="org.kde.pairdrop.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
