@@ -1,0 +1,717 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.pear.pairdrop_tp"
+4    android:versionCode="11100"
+5    android:versionName="11.1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml
+10
+11    <supports-screens
+11-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:8:5-13:40
+12        android:anyDensity="true"
+12-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:9:9-34
+13        android:largeScreens="true"
+13-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:10:9-36
+14        android:normalScreens="true"
+14-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:11:9-37
+15        android:smallScreens="true"
+15-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:12:9-36
+16        android:xlargeScreens="true" />
+16-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:13:9-37
+17
+18    <uses-feature
+18-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:15:5-17:36
+19        android:name="android.hardware.telephony"
+19-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:16:9-50
+20        android:required="false" />
+20-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:17:9-33
+21
+22    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+22-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:19:5-76
+22-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:19:22-73
+23    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+23-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:20:5-81
+23-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:20:22-78
+24    <uses-permission android:name="android.permission.INTERNET" />
+24-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:21:5-67
+24-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:21:22-64
+25    <!-- <uses-permission android:name="android.permission.BLUETOOTH" /> -->
+26    <!-- <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" /> -->
+27    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+27-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:24:5-79
+27-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:24:22-76
+28    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+28-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:25:5-79
+28-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:25:22-76
+29    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+29-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:26:5-76
+29-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:26:22-73
+30    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+30-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:27:5-86
+30-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:27:22-83
+31    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+31-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:28:5-75
+31-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:28:22-72
+32    <uses-permission android:name="android.permission.READ_CONTACTS" />
+32-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:29:5-72
+32-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:29:22-69
+33    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+33-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:30:5-80
+33-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:30:22-77
+34    <uses-permission android:name="android.permission.VIBRATE" />
+34-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:31:5-66
+34-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:31:22-63
+35    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+35-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:32:5-81
+35-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:32:22-78
+36    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+36-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:33:5-88
+36-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:33:22-85
+37    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+37-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:34:5-77
+37-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:34:22-74
+38    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+38-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:35:5-72
+38-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:35:22-69
+39    <uses-permission android:name="android.permission.SEND_SMS" />
+39-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:36:5-67
+39-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:36:22-64
+40    <uses-permission android:name="android.permission.READ_SMS" />
+40-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:37:5-67
+40-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:37:22-64
+41    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+41-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:38:5-70
+41-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:38:22-67
+42    <uses-permission android:name="android.permission.RECEIVE_MMS" />
+42-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:39:5-70
+42-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:39:22-67
+43    <uses-permission android:name="android.permission.WAKE_LOCK" />
+43-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:40:5-68
+43-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:40:22-65
+44    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+44-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:41:5-83
+44-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:41:22-80
+45    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+45-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:42:5-81
+45-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:42:22-78
+46    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+46-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:43:5-79
+46-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:43:22-76
+47    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+47-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:44:5-71
+47-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:44:22-68
+48
+49    <application
+49-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:48:5-359:19
+50        android:name="org.pear.pairdrop.MyApplication"
+50-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:55:9-55
+51        android:allowBackup="false"
+51-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:52:9-36
+52        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+52-->[androidx.core:core:1.3.2] C:\Users\isaac\.gradle\caches\transforms-2\files-2.1\e52db2c6b923cb82d5c70e536b6ec6b7\core-1.3.2\AndroidManifest.xml:24:18-86
+53        android:icon="@drawable/icon"
+53-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:49:9-38
+54        android:label="PairDrop"
+54-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:50:9-33
+55        android:networkSecurityConfig="@xml/network_security_config"
+55-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:53:9-69
+56        android:supportsRtl="true"
+56-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:51:9-35
+57        android:theme="@style/KdeConnectTheme.NoActionBar" >
+57-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:54:9-59
+58        <receiver
+58-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:57:9-66:20
+59            android:name="com.android.mms.transaction.PushReceiver"
+59-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:58:13-68
+60            android:exported="true"
+60-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:59:13-36
+61            android:permission="android.permission.BROADCAST_WAP_PUSH" >
+61-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:60:13-71
+62            <intent-filter>
+62-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:61:13-65:29
+63                <action android:name="android.provider.Telephony.WAP_PUSH_DELIVER" />
+63-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:62:17-86
+63-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:62:25-83
+64
+65                <data android:mimeType="application/vnd.wap.mms-message" />
+65-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:64:17-76
+65-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:64:23-73
+66            </intent-filter>
+67        </receiver>
+68
+69        <service
+69-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:68:9-71:39
+70            android:name="com.android.mms.transaction.TransactionService"
+70-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:69:13-74
+71            android:enabled="true"
+71-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:70:13-35
+72            android:exported="true" />
+72-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:71:13-36
+73        <service
+73-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:73:9-77:38
+74            android:name="org.pear.pairdrop.BackgroundService"
+74-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:74:13-63
+75            android:enabled="true"
+75-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:77:13-35
+76            android:foregroundServiceType="connectedDevice"
+76-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:75:13-60
+77            android:icon="@drawable/icon" />
+77-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:76:13-42
+78        <service
+78-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:78:9-89:19
+79            android:name="org.pear.pairdrop.Plugins.RemoteKeyboardPlugin.RemoteKeyboardService"
+79-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:79:13-96
+80            android:label="@string/remote_keyboard_service"
+80-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:80:13-60
+81            android:permission="android.permission.BIND_INPUT_METHOD" >
+81-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:81:13-70
+82            <intent-filter>
+82-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:82:13-84:29
+83                <action android:name="android.view.InputMethod" />
+83-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:83:17-67
+83-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:83:25-64
+84            </intent-filter>
+85
+86            <meta-data
+86-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:86:13-88:71
+87                android:name="android.view.im"
+87-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:87:17-47
+88                android:resource="@xml/remotekeyboardplugin_method" />
+88-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:88:17-68
+89        </service>
+90
+91        <activity
+91-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:91:9-106:20
+92            android:name="org.pear.pairdrop.UserInterface.MainActivity"
+92-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:92:13-72
+93            android:label="PairDrop"
+93-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:93:13-37
+94            android:theme="@style/KdeConnectTheme.NoActionBar" >
+94-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:94:13-63
+95            <intent-filter>
+95-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:95:13-99:29
+96                <action android:name="android.intent.action.MAIN" />
+96-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:96:17-69
+96-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:96:25-66
+97
+98                <category android:name="android.intent.category.LAUNCHER" />
+98-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:98:17-77
+98-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:98:27-74
+99            </intent-filter>
+100            <intent-filter>
+100-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:100:13-105:29
+101                <action android:name="android.intent.action.SEND_MULTIPLE" />
+101-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:101:17-78
+101-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:101:25-75
+102
+103                <category android:name="android.intent.category.DEFAULT" />
+103-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:102:17-76
+103-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:102:27-73
+104
+105                <data android:mimeType="image/*" />
+105-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:64:17-76
+105-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:64:23-73
+106            </intent-filter>
+107        </activity>
+108        <activity
+108-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:107:9-114:20
+109            android:name="org.pear.pairdrop.UserInterface.PluginSettingsActivity"
+109-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:108:13-82
+110            android:label="@string/device_menu_plugins"
+110-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:109:13-56
+111            android:parentActivityName="org.pear.pairdrop.UserInterface.MainActivity" >
+111-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:110:13-86
+112            <meta-data
+112-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:111:13-113:80
+113                android:name="android.support.PARENT_ACTIVITY"
+113-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:112:17-63
+114                android:value="org.pear.pairdrop.UserInterface.MainActivity" />
+114-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:113:17-77
+115        </activity>
+116        <activity
+116-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:115:9-122:20
+117            android:name="org.pear.pairdrop.UserInterface.CustomDevicesActivity"
+117-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:116:13-81
+118            android:label="@string/custom_devices_settings"
+118-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:117:13-60
+119            android:parentActivityName="org.pear.pairdrop.UserInterface.MainActivity" >
+119-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:118:13-86
+120            <meta-data
+120-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:111:13-113:80
+121                android:name="android.support.PARENT_ACTIVITY"
+121-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:112:17-63
+122                android:value="org.pear.pairdrop.UserInterface.MainActivity" />
+122-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:113:17-77
+123        </activity>
+124        <activity
+124-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:123:9-130:20
+125            android:name="org.pear.pairdrop.Plugins.SharePlugin.SendFileActivity"
+125-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:124:13-82
+126            android:label="PairDrop"
+126-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:125:13-37
+127            android:parentActivityName="org.pear.pairdrop.UserInterface.MainActivity" >
+127-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:126:13-86
+128            <meta-data
+128-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:111:13-113:80
+129                android:name="android.support.PARENT_ACTIVITY"
+129-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:112:17-63
+130                android:value="org.pear.pairdrop.UserInterface.MainActivity" />
+130-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:113:17-77
+131        </activity>
+132
+133        <receiver android:name="org.pear.pairdrop.KdeConnectBroadcastReceiver" >
+133-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:132:9-153:20
+133-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:132:19-79
+134            <intent-filter>
+134-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:133:13-140:29
+135                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+135-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:134:17-81
+135-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:134:25-78
+136
+137                <data
+137-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:64:17-76
+138                    android:host="kdeconnect"
+138-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:137:21-46
+139                    android:path="/"
+139-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:138:21-37
+140                    android:scheme="package" />
+140-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:139:21-45
+141            </intent-filter>
+142            <intent-filter>
+142-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:141:13-143:29
+143                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+143-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:142:17-83
+143-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:142:25-81
+144            </intent-filter>
+145            <intent-filter>
+145-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:144:13-146:29
+146                <action android:name="android.intent.action.BOOT_COMPLETED" />
+146-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:145:17-79
+146-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:145:25-76
+147            </intent-filter>
+148            <intent-filter>
+148-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:147:13-149:29
+149                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+149-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:148:17-79
+149-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:148:25-76
+150            </intent-filter>
+151            <intent-filter>
+151-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:150:13-152:29
+152                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+152-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:151:17-78
+152-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:151:25-75
+153            </intent-filter>
+154        </receiver>
+155
+156        <activity
+156-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:155:9-160:51
+157            android:name="org.pear.pairdrop.Plugins.FindMyPhonePlugin.FindMyPhoneActivity"
+157-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:156:13-91
+158            android:configChanges="orientation|screenSize"
+158-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:157:13-59
+159            android:excludeFromRecents="true"
+159-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:158:13-46
+160            android:label="@string/findmyphone_title"
+160-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:159:13-54
+161            android:launchMode="singleInstance" />
+161-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:160:13-48
+162
+163        <receiver android:name="org.pear.pairdrop.Plugins.FindMyPhonePlugin.FindMyPhoneReceiver" >
+163-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:162:9-166:20
+163-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:162:19-97
+164            <intent-filter>
+164-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:163:13-165:29
+165                <action android:name="org.pear.pairdrop.Plugins.FindMyPhonePlugin.foundIt" />
+165-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:164:17-94
+165-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:164:25-91
+166            </intent-filter>
+167        </receiver>
+168
+169        <!-- Plugin-related activities and services -->
+170
+171        <activity
+171-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:170:9-173:48
+172            android:name="org.pear.pairdrop.Plugins.ClibpoardPlugin.ClipboardFloatingActivity"
+172-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:171:13-95
+173            android:excludeFromRecents="true"
+173-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:173:13-46
+174            android:theme="@style/Theme.Transparent" />
+174-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:172:13-53
+175        <activity
+175-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:175:9-184:20
+176            android:name="org.pear.pairdrop.Plugins.MprisPlugin.MprisActivity"
+176-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:176:13-79
+177            android:label="@string/open_mpris_controls"
+177-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:177:13-56
+178            android:launchMode="singleTop"
+178-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:178:13-43
+179            android:parentActivityName="org.pear.pairdrop.UserInterface.MainActivity"
+179-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:180:13-86
+180            android:theme="@style/KdeConnectTheme.NoActionBar" >
+180-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:179:13-63
+181            <meta-data
+181-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:111:13-113:80
+182                android:name="android.support.PARENT_ACTIVITY"
+182-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:112:17-63
+183                android:value="org.pear.pairdrop.UserInterface.MainActivity" />
+183-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:113:17-77
+184        </activity>
+185
+186        <receiver android:name="org.pear.pairdrop.Plugins.MprisPlugin.MprisMediaNotificationReceiver" >
+186-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:186:9-190:20
+186-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:186:19-102
+187            <intent-filter>
+187-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:187:13-189:29
+188                <action android:name="android.intent.action.MEDIA_BUTTON" />
+188-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:188:17-77
+188-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:188:25-74
+189            </intent-filter>
+190        </receiver>
+191
+192        <activity
+192-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:192:9-199:20
+193            android:name="org.pear.pairdrop.Plugins.RunCommandPlugin.RunCommandActivity"
+193-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:193:13-89
+194            android:label="@string/pref_plugin_runcommand"
+194-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:194:13-59
+195            android:parentActivityName="org.pear.pairdrop.UserInterface.MainActivity" >
+195-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:195:13-86
+196            <meta-data
+196-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:111:13-113:80
+197                android:name="android.support.PARENT_ACTIVITY"
+197-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:112:17-63
+198                android:value="org.pear.pairdrop.UserInterface.MainActivity" />
+198-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:113:17-77
+199        </activity>
+200        <activity
+200-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:200:9-207:67
+201            android:name="org.pear.pairdrop.Plugins.RunCommandPlugin.RunCommandWidgetDeviceSelector"
+201-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:201:13-101
+202            android:excludeFromRecents="true"
+202-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:202:13-46
+203            android:label="@string/pref_plugin_runcommand"
+203-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:203:13-59
+204            android:launchMode="singleTask"
+204-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:204:13-44
+205            android:noHistory="true"
+205-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:205:13-37
+206            android:screenOrientation="user"
+206-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:206:13-45
+207            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+207-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:207:13-64
+208
+209        <service
+209-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:209:9-212:72
+210            android:name="org.pear.pairdrop.Plugins.RunCommandPlugin.RunCommandWidgetDataProviderService"
+210-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:210:13-106
+211            android:exported="false"
+211-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:211:13-37
+212            android:permission="android.permission.BIND_REMOTEVIEWS" />
+212-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:212:13-69
+213
+214        <receiver
+214-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:214:9-227:20
+215            android:name="org.pear.pairdrop.Plugins.RunCommandPlugin.RunCommandWidget"
+215-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:215:13-87
+216            android:label="@string/pref_plugin_runcommand" >
+216-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:216:13-59
+217            <intent-filter>
+217-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:217:13-219:29
+218                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+218-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:218:17-84
+218-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:218:25-81
+219            </intent-filter>
+220            <intent-filter>
+220-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:220:13-222:29
+221                <action android:name="RUN_COMMAND_ACTION" />
+221-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:221:17-61
+221-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:221:25-58
+222            </intent-filter>
+223
+224            <meta-data
+224-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:224:13-226:70
+225                android:name="android.appwidget.provider"
+225-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:225:17-58
+226                android:resource="@xml/remotecommandplugin_widget" />
+226-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:226:17-67
+227        </receiver>
+228
+229        <activity android:name="org.pear.pairdrop.Plugins.RunCommandPlugin.RunCommandUrlActivity" >
+229-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:229:9-241:20
+229-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:229:19-98
+230            <intent-filter>
+230-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:230:13-240:29
+231                <action android:name="android.intent.action.VIEW" />
+231-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:231:17-69
+231-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:231:25-66
+232                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+232-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:232:17-77
+232-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:232:25-74
+233
+234                <category android:name="android.intent.category.DEFAULT" />
+234-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:102:17-76
+234-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:102:27-73
+235                <category android:name="android.intent.category.BROWSABLE" />
+235-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:235:17-78
+235-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:235:27-75
+236
+237                <data
+237-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:64:17-76
+238                    android:host="runcommand"
+238-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:137:21-46
+239                    android:scheme="kdeconnect" />
+239-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:139:21-45
+240            </intent-filter>
+241        </activity>
+242        <activity
+242-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:242:9-251:20
+243            android:name="org.pear.pairdrop.Plugins.BigscreenPlugin.BigscreenActivity"
+243-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:243:13-87
+244            android:configChanges="orientation|keyboardHidden|screenSize"
+244-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:244:13-74
+245            android:label="@string/pref_plugin_bigscreen"
+245-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:245:13-58
+246            android:parentActivityName="org.pear.pairdrop.UserInterface.MainActivity"
+246-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:246:13-86
+247            android:windowSoftInputMode="stateHidden|adjustResize" >
+247-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:247:13-67
+248            <meta-data
+248-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:111:13-113:80
+249                android:name="android.support.PARENT_ACTIVITY"
+249-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:112:17-63
+250                android:value="org.pear.pairdrop.UserInterface.MainActivity" />
+250-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:113:17-77
+251        </activity>
+252        <activity
+252-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:252:9-259:20
+253            android:name="org.pear.pairdrop.Plugins.MousePadPlugin.MousePadActivity"
+253-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:253:13-85
+254            android:label="@string/pref_plugin_mousepad"
+254-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:254:13-57
+255            android:parentActivityName="org.pear.pairdrop.UserInterface.MainActivity" >
+255-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:255:13-86
+256            <meta-data
+256-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:111:13-113:80
+257                android:name="android.support.PARENT_ACTIVITY"
+257-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:112:17-63
+258                android:value="org.pear.pairdrop.UserInterface.MainActivity" />
+258-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:113:17-77
+259        </activity>
+260        <activity
+260-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:260:9-273:20
+261            android:name="org.pear.pairdrop.Plugins.MousePadPlugin.SendKeystrokesToHostActivity"
+261-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:261:13-97
+262            android:label="@string/pref_plugin_mousepad_send_keystrokes"
+262-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:262:13-73
+263            android:parentActivityName="org.pear.pairdrop.UserInterface.MainActivity" >
+263-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:263:13-86
+264            <meta-data
+264-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:111:13-113:80
+265                android:name="android.support.PARENT_ACTIVITY"
+265-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:112:17-63
+266                android:value="org.pear.pairdrop.UserInterface.MainActivity" />
+266-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:113:17-77
+267            <!-- Accept data with "text/x-keystrokes" to send the text to the connected host and emulate keystrokes -->
+268            <intent-filter>
+268-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:268:13-272:29
+269                <action android:name="android.intent.action.SEND" />
+269-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:269:17-68
+269-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:269:25-66
+270
+271                <category android:name="android.intent.category.DEFAULT" />
+271-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:102:17-76
+271-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:102:27-73
+272
+273                <data android:mimeType="text/x-keystrokes" />
+273-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:64:17-76
+273-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:64:23-73
+274            </intent-filter>
+275        </activity>
+276        <activity
+276-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:274:9-283:20
+277            android:name="org.pear.pairdrop.Plugins.PresenterPlugin.PresenterActivity"
+277-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:275:13-87
+278            android:configChanges="orientation|keyboardHidden|screenSize"
+278-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:276:13-74
+279            android:label="@string/pref_plugin_presenter"
+279-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:277:13-58
+280            android:parentActivityName="org.pear.pairdrop.UserInterface.MainActivity"
+280-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:278:13-86
+281            android:windowSoftInputMode="stateHidden|adjustResize" >
+281-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:279:13-67
+282            <meta-data
+282-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:111:13-113:80
+283                android:name="android.support.PARENT_ACTIVITY"
+283-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:112:17-63
+284                android:value="org.pear.pairdrop.UserInterface.MainActivity" />
+284-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:113:17-77
+285        </activity>
+286        <activity
+286-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:284:9-305:20
+287            android:name="org.pear.pairdrop.Plugins.SharePlugin.ShareActivity"
+287-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:285:13-79
+288            android:label="PairDrop" >
+288-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:286:13-37
+289            <intent-filter>
+289-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:287:13-293:29
+290                <action android:name="android.intent.action.SEND" />
+290-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:269:17-68
+290-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:269:25-66
+291
+292                <category android:name="android.intent.category.DEFAULT" />
+292-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:102:17-76
+292-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:102:27-73
+293
+294                <data android:mimeType="*/*" />
+294-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:64:17-76
+294-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:64:23-73
+295            </intent-filter>
+296            <intent-filter>
+296-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:294:13-300:29
+297                <action android:name="android.intent.action.SEND_MULTIPLE" />
+297-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:101:17-78
+297-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:101:25-75
+298
+299                <category android:name="android.intent.category.DEFAULT" />
+299-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:102:17-76
+299-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:102:27-73
+300
+301                <data android:mimeType="*/*" />
+301-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:64:17-76
+301-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:64:23-73
+302            </intent-filter>
+303
+304            <meta-data
+304-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:302:13-304:99
+305                android:name="android.service.chooser.chooser_target_service"
+305-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:303:17-78
+306                android:value="org.pear.pairdrop.Plugins.SharePlugin.ShareChooserTargetService" />
+306-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:304:17-96
+307        </activity>
+308
+309        <receiver android:name="org.pear.pairdrop.Plugins.SharePlugin.ShareBroadcastReceiver" >
+309-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:307:9-311:20
+309-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:307:19-94
+310            <intent-filter>
+310-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:308:13-310:29
+311                <action android:name="org.pear.pairdrop.Plugins.SharePlugin.CancelShare" />
+311-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:309:17-92
+311-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:309:25-89
+312            </intent-filter>
+313        </receiver>
+314
+315        <provider
+315-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:313:9-321:20
+316            android:name="androidx.core.content.FileProvider"
+316-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:314:13-62
+317            android:authorities="org.kde.pairdrop.fileprovider"
+317-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:315:13-64
+318            android:exported="false"
+318-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:316:13-37
+319            android:grantUriPermissions="true" >
+319-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:317:13-47
+320            <meta-data
+320-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:318:13-320:62
+321                android:name="android.support.FILE_PROVIDER_PATHS"
+321-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:319:17-67
+322                android:resource="@xml/fileprovider_paths" />
+322-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:320:17-59
+323        </provider>
+324
+325        <service
+325-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:323:9-329:19
+326            android:name="org.pear.pairdrop.Plugins.NotificationsPlugin.NotificationReceiver"
+326-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:324:13-94
+327            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
+327-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:325:13-87
+328            <intent-filter>
+328-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:326:13-328:29
+329                <action android:name="android.service.notification.NotificationListenerService" />
+329-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:327:17-99
+329-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:327:25-96
+330            </intent-filter>
+331        </service>
+332        <service
+332-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:330:9-336:19
+333            android:name="org.pear.pairdrop.Plugins.SharePlugin.ShareChooserTargetService"
+333-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:331:13-91
+334            android:permission="android.permission.BIND_CHOOSER_TARGET_SERVICE" >
+334-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:332:13-80
+335            <intent-filter>
+335-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:333:13-335:29
+336                <action android:name="android.service.chooser.ChooserTargetService" />
+336-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:334:17-87
+336-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:334:25-84
+337            </intent-filter>
+338        </service>
+339
+340        <activity
+340-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:338:9-345:20
+341            android:name="org.pear.pairdrop.Plugins.NotificationsPlugin.NotificationFilterActivity"
+341-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:339:13-100
+342            android:label="@string/title_activity_notification_filter"
+342-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:340:13-71
+343            android:parentActivityName="org.pear.pairdrop.UserInterface.PluginSettingsActivity" >
+343-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:341:13-96
+344            <meta-data
+344-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:111:13-113:80
+345                android:name="android.support.PARENT_ACTIVITY"
+345-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:112:17-63
+346                android:value="org.pear.pairdrop.UserInterface.PluginSettingsActivity" />
+346-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:113:17-77
+347        </activity>
+348        <activity android:name="org.pear.pairdrop.Plugins.PhotoPlugin.PhotoActivity" />
+348-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:347:9-88
+348-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:347:19-85
+349        <activity
+349-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:349:9-356:20
+350            android:name="org.pear.pairdrop.UserInterface.TrustedNetworksActivity"
+350-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:350:13-83
+351            android:label="@string/trusted_networks"
+351-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:351:13-53
+352            android:parentActivityName="org.pear.pairdrop.UserInterface.MainActivity" >
+352-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:352:13-86
+353            <meta-data
+353-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:111:13-113:80
+354                android:name="android.support.PARENT_ACTIVITY"
+354-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:112:17-63
+355                android:value="org.pear.pairdrop.UserInterface.MainActivity" />
+355-->C:\Users\isaac\pairdrop-android\AndroidManifest.xml:113:17-77
+356        </activity>
+357
+358        <provider
+358-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\isaac\.gradle\caches\transforms-2\files-2.1\86441190a57200fcd84ab579a0869f81\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+359            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+359-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\isaac\.gradle\caches\transforms-2\files-2.1\86441190a57200fcd84ab579a0869f81\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+360            android:authorities="org.pear.pairdrop_tp.lifecycle-process"
+360-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\isaac\.gradle\caches\transforms-2\files-2.1\86441190a57200fcd84ab579a0869f81\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+361            android:exported="false"
+361-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\isaac\.gradle\caches\transforms-2\files-2.1\86441190a57200fcd84ab579a0869f81\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+362            android:multiprocess="true" />
+362-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\isaac\.gradle\caches\transforms-2\files-2.1\86441190a57200fcd84ab579a0869f81\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+363        <provider
+363-->[com.klinkerapps:android-smsmms:5.2.6] C:\Users\isaac\.gradle\caches\transforms-2\files-2.1\942661a70f00d1d632f6ec24a6c57557\jetified-android-smsmms-5.2.6\AndroidManifest.xml:10:9-15:50
+364            android:name="com.klinker.android.send_message.MmsFileProvider"
+364-->[com.klinkerapps:android-smsmms:5.2.6] C:\Users\isaac\.gradle\caches\transforms-2\files-2.1\942661a70f00d1d632f6ec24a6c57557\jetified-android-smsmms-5.2.6\AndroidManifest.xml:11:13-76
+365            android:authorities="org.pear.pairdrop_tp.MmsFileProvider"
+365-->[com.klinkerapps:android-smsmms:5.2.6] C:\Users\isaac\.gradle\caches\transforms-2\files-2.1\942661a70f00d1d632f6ec24a6c57557\jetified-android-smsmms-5.2.6\AndroidManifest.xml:12:13-67
+366            android:enabled="true"
+366-->[com.klinkerapps:android-smsmms:5.2.6] C:\Users\isaac\.gradle\caches\transforms-2\files-2.1\942661a70f00d1d632f6ec24a6c57557\jetified-android-smsmms-5.2.6\AndroidManifest.xml:13:13-35
+367            android:exported="false"
+367-->[com.klinkerapps:android-smsmms:5.2.6] C:\Users\isaac\.gradle\caches\transforms-2\files-2.1\942661a70f00d1d632f6ec24a6c57557\jetified-android-smsmms-5.2.6\AndroidManifest.xml:14:13-37
+368            android:grantUriPermissions="true" />
+368-->[com.klinkerapps:android-smsmms:5.2.6] C:\Users\isaac\.gradle\caches\transforms-2\files-2.1\942661a70f00d1d632f6ec24a6c57557\jetified-android-smsmms-5.2.6\AndroidManifest.xml:15:13-47
+369
+370        <uses-library
+370-->[com.klinkerapps:android-smsmms:5.2.6] C:\Users\isaac\.gradle\caches\transforms-2\files-2.1\942661a70f00d1d632f6ec24a6c57557\jetified-android-smsmms-5.2.6\AndroidManifest.xml:17:9-19:40
+371            android:name="org.apache.http.legacy"
+371-->[com.klinkerapps:android-smsmms:5.2.6] C:\Users\isaac\.gradle\caches\transforms-2\files-2.1\942661a70f00d1d632f6ec24a6c57557\jetified-android-smsmms-5.2.6\AndroidManifest.xml:18:13-50
+372            android:required="false" />
+372-->[com.klinkerapps:android-smsmms:5.2.6] C:\Users\isaac\.gradle\caches\transforms-2\files-2.1\942661a70f00d1d632f6ec24a6c57557\jetified-android-smsmms-5.2.6\AndroidManifest.xml:19:13-37
+373    </application>
+374
+375</manifest>

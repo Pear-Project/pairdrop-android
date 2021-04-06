@@ -32,7 +32,7 @@
 -keep class org.apache.mina.** {*;}
 -keep class org.apache.sshd.** {*;}
 
--keep class org.kde.kdeconnect.** {*;}
+-keep class org.pear.pairdrop.** {*;}
 
 -dontwarn org.mockito.**
 -dontwarn sun.reflect.**

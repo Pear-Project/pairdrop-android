@@ -1,0 +1,544 @@
+org/pear/pairdrop_tp/databinding/ListItemWithIconEntryBinding.java
+ org.pear.pairdrop_tp.databinding.ListItemWithIconEntryBinding
+org/pear/pairdrop/NetworkPacket.java
+ org.pear.pairdrop.NetworkPacket
+ org.pear.pairdrop.NetworkPacket$1
+ org.pear.pairdrop.NetworkPacket$Payload
+org/pear/pairdrop/Plugins/NotificationsPlugin/RepliableNotification.java
+ org.pear.pairdrop.Plugins.NotificationsPlugin.RepliableNotification
+org/pear/pairdrop/Plugins/ConnectivityReportPlugin/ConnectivityReportPlugin.java
+ org.pear.pairdrop.Plugins.ConnectivityReportPlugin.ConnectivityReportPlugin
+ org.pear.pairdrop.Plugins.ConnectivityReportPlugin.ConnectivityReportPlugin$1
+org/pear/pairdrop/Plugins/MprisPlugin/MprisPlugin.java
+ org.pear.pairdrop.Plugins.MprisPlugin.MprisPlugin
+ org.pear.pairdrop.Plugins.MprisPlugin.MprisPlugin$MprisPlayer
+org/pear/pairdrop/Backends/LanBackend/LanLinkProvider.java
+ org.pear.pairdrop.Backends.LanBackend.LanLinkProvider
+ org.pear.pairdrop.Backends.LanBackend.LanLinkProvider$1
+org/pear/pairdrop/Helpers/RandomHelper.java
+ org.pear.pairdrop.Helpers.RandomHelper
+org/pear/pairdrop/Plugins/SMSPlugin/SmsMmsUtils.java
+ org.pear.pairdrop.Plugins.SMSPlugin.SmsMmsUtils
+ org.pear.pairdrop.Plugins.SMSPlugin.SmsMmsUtils$1
+org/pear/pairdrop/Plugins/BatteryPlugin/BatteryPlugin.java
+ org.pear.pairdrop.Plugins.BatteryPlugin.BatteryPlugin
+ org.pear.pairdrop.Plugins.BatteryPlugin.BatteryPlugin$1
+org/pear/pairdrop/Helpers/FilesHelper.java
+ org.pear.pairdrop.Helpers.FilesHelper
+org/pear/pairdrop/Plugins/RunCommandPlugin/RunCommandWidget.java
+ org.pear.pairdrop.Plugins.RunCommandPlugin.RunCommandWidget
+org/pear/pairdrop/Helpers/VideoUrlsHelper.java
+ org.pear.pairdrop.Helpers.VideoUrlsHelper
+org/pear/pairdrop/Backends/BaseLinkProvider.java
+ org.pear.pairdrop.Backends.BaseLinkProvider
+ org.pear.pairdrop.Backends.BaseLinkProvider$ConnectionReceiver
+org/pear/pairdrop/UserInterface/PluginSettingsFragment.java
+ org.pear.pairdrop.UserInterface.PluginSettingsFragment
+org/pear/pairdrop/Plugins/SharePlugin/CompositeReceiveFileJob.java
+ org.pear.pairdrop.Plugins.SharePlugin.CompositeReceiveFileJob
+org/pear/pairdrop/Plugins/RunCommandPlugin/RunCommandWidgetDataProviderService.java
+ org.pear.pairdrop.Plugins.RunCommandPlugin.RunCommandWidgetDataProviderService
+org/pear/pairdrop/Plugins/SMSPlugin/MimeType.java
+ org.pear.pairdrop.Plugins.SMSPlugin.MimeType
+org/pear/pairdrop_tp/databinding/PopupNotificationsfilterBinding.java
+ org.pear.pairdrop_tp.databinding.PopupNotificationsfilterBinding
+org/pear/pairdrop_tp/databinding/MprisNowPlayingBinding.java
+ org.pear.pairdrop_tp.databinding.MprisNowPlayingBinding
+org/pear/pairdrop/async/BackgroundJob.java
+ org.pear.pairdrop.async.BackgroundJob
+ org.pear.pairdrop.async.BackgroundJob$Callback
+org/pear/pairdrop/Plugins/SftpPlugin/SimpleSftpServer.java
+ org.pear.pairdrop.Plugins.SftpPlugin.SimpleSftpServer
+ org.pear.pairdrop.Plugins.SftpPlugin.SimpleSftpServer$1
+ org.pear.pairdrop.Plugins.SftpPlugin.SimpleSftpServer$SimplePasswordAuthenticator
+ org.pear.pairdrop.Plugins.SftpPlugin.SimpleSftpServer$SimplePublicKeyAuthenticator
+org/pear/pairdrop/Plugins/MprisPlugin/VolumeKeyListener.java
+ org.pear.pairdrop.Plugins.MprisPlugin.VolumeKeyListener
+org/pear/pairdrop/Plugins/MprisPlugin/MprisActivity.java
+ org.pear.pairdrop.Plugins.MprisPlugin.MprisActivity
+ org.pear.pairdrop.Plugins.MprisPlugin.MprisActivity$MprisPagerAdapter
+org/pear/pairdrop_tp/databinding/PairingExplanationTextNoWifiBinding.java
+ org.pear.pairdrop_tp.databinding.PairingExplanationTextNoWifiBinding
+org/pear/pairdrop/Helpers/SecurityHelpers/SslHelper.java
+ org.pear.pairdrop.Helpers.SecurityHelpers.SslHelper
+ org.pear.pairdrop.Helpers.SecurityHelpers.SslHelper$1
+org/pear/pairdrop_tp/databinding/NavHeaderBinding.java
+ org.pear.pairdrop_tp.databinding.NavHeaderBinding
+org/pear/pairdrop/Plugins/SharePlugin/ReceiveNotification.java
+ org.pear.pairdrop.Plugins.SharePlugin.ReceiveNotification
+org/pear/pairdrop/Plugins/SftpPlugin/StoragePreferenceDialogFragment.java
+ org.pear.pairdrop.Plugins.SftpPlugin.StoragePreferenceDialogFragment
+ org.pear.pairdrop.Plugins.SftpPlugin.StoragePreferenceDialogFragment$1
+ org.pear.pairdrop.Plugins.SftpPlugin.StoragePreferenceDialogFragment$Callback
+ org.pear.pairdrop.Plugins.SftpPlugin.StoragePreferenceDialogFragment$CallbackResult
+ org.pear.pairdrop.Plugins.SftpPlugin.StoragePreferenceDialogFragment$FileSeparatorCharFilter
+org/pear/pairdrop/Backends/LoopbackBackend/LoopbackPairingHandler.java
+ org.pear.pairdrop.Backends.LoopbackBackend.LoopbackPairingHandler
+org/pear/pairdrop_tp/databinding/ActivitySendkeystrokesBinding.java
+ org.pear.pairdrop_tp.databinding.ActivitySendkeystrokesBinding
+org/pear/pairdrop/UserInterface/SettingsFragment.java
+ org.pear.pairdrop.UserInterface.SettingsFragment
+ org.pear.pairdrop.UserInterface.SettingsFragment$LicenseTextSingleton
+org/pear/pairdrop/Plugins/PresenterPlugin/PresenterActivity.java
+ org.pear.pairdrop.Plugins.PresenterPlugin.PresenterActivity
+ org.pear.pairdrop.Plugins.PresenterPlugin.PresenterActivity$1
+org/pear/pairdrop_tp/databinding/ActivityMprisBinding.java
+ org.pear.pairdrop_tp.databinding.ActivityMprisBinding
+org/pear/pairdrop_tp/databinding/CustomDeviceItemBinding.java
+ org.pear.pairdrop_tp.databinding.CustomDeviceItemBinding
+org/pear/pairdrop/Helpers/SafeTextChecker.java
+ org.pear.pairdrop.Helpers.SafeTextChecker
+org/pear/pairdrop/Plugins/MousePadPlugin/MousePadPlugin.java
+ org.pear.pairdrop.Plugins.MousePadPlugin.MousePadPlugin
+org/pear/pairdrop/Plugins/BigscreenPlugin/BigscreenActivity.java
+ org.pear.pairdrop.Plugins.BigscreenPlugin.BigscreenActivity
+org/pear/pairdrop_tp/databinding/MprisControlBinding.java
+ org.pear.pairdrop_tp.databinding.MprisControlBinding
+org/pear/pairdrop/Plugins/RunCommandPlugin/RunCommandPlugin.java
+ org.pear.pairdrop.Plugins.RunCommandPlugin.RunCommandPlugin
+ org.pear.pairdrop.Plugins.RunCommandPlugin.RunCommandPlugin$CommandsChangedCallback
+org/pear/pairdrop/Backends/LoopbackBackend/LoopbackLink.java
+ org.pear.pairdrop.Backends.LoopbackBackend.LoopbackLink
+org/pear/pairdrop/Plugins/SharePlugin/ShareBroadcastReceiver.java
+ org.pear.pairdrop.Plugins.SharePlugin.ShareBroadcastReceiver
+org/pear/pairdrop/Plugins/ContactsPlugin/ContactsPlugin.java
+ org.pear.pairdrop.Plugins.ContactsPlugin.ContactsPlugin
+org/pear/pairdrop/Backends/BluetoothBackend/BluetoothPairingHandler.java
+ org.pear.pairdrop.Backends.BluetoothBackend.BluetoothPairingHandler
+ org.pear.pairdrop.Backends.BluetoothBackend.BluetoothPairingHandler$1
+ org.pear.pairdrop.Backends.BluetoothBackend.BluetoothPairingHandler$2
+ org.pear.pairdrop.Backends.BluetoothBackend.BluetoothPairingHandler$2$1
+ org.pear.pairdrop.Backends.BluetoothBackend.BluetoothPairingHandler$3
+org/pear/pairdrop/Backends/LanBackend/LanPairingHandler.java
+ org.pear.pairdrop.Backends.LanBackend.LanPairingHandler
+ org.pear.pairdrop.Backends.LanBackend.LanPairingHandler$1
+ org.pear.pairdrop.Backends.LanBackend.LanPairingHandler$2
+ org.pear.pairdrop.Backends.LanBackend.LanPairingHandler$2$1
+ org.pear.pairdrop.Backends.LanBackend.LanPairingHandler$3
+org/pear/pairdrop_tp/databinding/TrustedNetworkListBinding.java
+ org.pear.pairdrop_tp.databinding.TrustedNetworkListBinding
+org/pear/pairdrop/MyApplication.java
+ org.pear.pairdrop.MyApplication
+ org.pear.pairdrop.MyApplication$1
+ org.pear.pairdrop.MyApplication$LifecycleObserver
+org/pear/pairdrop/UserInterface/List/FailedPluginListItem.java
+ org.pear.pairdrop.UserInterface.List.FailedPluginListItem
+ org.pear.pairdrop.UserInterface.List.FailedPluginListItem$Action
+org/pear/pairdrop_tp/databinding/ActivityDeviceBinding.java
+ org.pear.pairdrop_tp.databinding.ActivityDeviceBinding
+org/pear/pairdrop/Plugins/NotificationsPlugin/AppDatabase.java
+ org.pear.pairdrop.Plugins.NotificationsPlugin.AppDatabase
+ org.pear.pairdrop.Plugins.NotificationsPlugin.AppDatabase$DbHelper
+ org.pear.pairdrop.Plugins.NotificationsPlugin.AppDatabase$PrivacyOptions
+org/pear/pairdrop/Plugins/BigscreenPlugin/BigscreenPlugin.java
+ org.pear.pairdrop.Plugins.BigscreenPlugin.BigscreenPlugin
+org/pear/pairdrop/Plugins/MousePadPlugin/MousePadActivity.java
+ org.pear.pairdrop.Plugins.MousePadPlugin.MousePadActivity
+ org.pear.pairdrop.Plugins.MousePadPlugin.MousePadActivity$1
+ org.pear.pairdrop.Plugins.MousePadPlugin.MousePadActivity$ClickType
+org/pear/pairdrop/UserInterface/List/PluginListHeaderItem.java
+ org.pear.pairdrop.UserInterface.List.PluginListHeaderItem
+org/pear/pairdrop/Plugins/MousePadPlugin/MousePadGestureDetector.java
+ org.pear.pairdrop.Plugins.MousePadPlugin.MousePadGestureDetector
+ org.pear.pairdrop.Plugins.MousePadPlugin.MousePadGestureDetector$OnGestureListener
+org/pear/pairdrop/Plugins/MousePadPlugin/SendKeystrokesToHostActivity.java
+ org.pear.pairdrop.Plugins.MousePadPlugin.SendKeystrokesToHostActivity
+org/pear/pairdrop_tp/databinding/WidgetRemoteCommandPluginDialogBinding.java
+ org.pear.pairdrop_tp.databinding.WidgetRemoteCommandPluginDialogBinding
+org/pear/pairdrop/Plugins/MprisPlugin/MprisNowPlayingFragment.java
+ org.pear.pairdrop.Plugins.MprisPlugin.MprisNowPlayingFragment
+ org.pear.pairdrop.Plugins.MprisPlugin.MprisNowPlayingFragment$1
+ org.pear.pairdrop.Plugins.MprisPlugin.MprisNowPlayingFragment$2
+ org.pear.pairdrop.Plugins.MprisPlugin.MprisNowPlayingFragment$3
+ org.pear.pairdrop.Plugins.MprisPlugin.MprisNowPlayingFragment$4
+ org.pear.pairdrop.Plugins.MprisPlugin.MprisNowPlayingFragment$5
+ org.pear.pairdrop.Plugins.MprisPlugin.MprisNowPlayingFragment$5$1
+ org.pear.pairdrop.Plugins.MprisPlugin.MprisNowPlayingFragment$MprisPlayerCallback
+org/pear/pairdrop/Plugins/NotificationsPlugin/NotificationFilterActivity.java
+ org.pear.pairdrop.Plugins.NotificationsPlugin.NotificationFilterActivity
+ org.pear.pairdrop.Plugins.NotificationsPlugin.NotificationFilterActivity$AppListAdapter
+ org.pear.pairdrop.Plugins.NotificationsPlugin.NotificationFilterActivity$AppListInfo
+org/pear/pairdrop/Backends/BaseLink.java
+ org.pear.pairdrop.Backends.BaseLink
+ org.pear.pairdrop.Backends.BaseLink$PacketReceiver
+org/pear/pairdrop/Plugins/TelephonyPlugin/TelephonyPlugin.java
+ org.pear.pairdrop.Plugins.TelephonyPlugin.TelephonyPlugin
+ org.pear.pairdrop.Plugins.TelephonyPlugin.TelephonyPlugin$1
+ org.pear.pairdrop.Plugins.TelephonyPlugin.TelephonyPlugin$2
+org/pear/pairdrop/Plugins/ConnectivityReportPlugin/ASUUtils.java
+ org.pear.pairdrop.Plugins.ConnectivityReportPlugin.ASUUtils
+org/pear/pairdrop/Plugins/ReceiveNotificationsPlugin/ReceiveNotificationsPlugin.java
+ org.pear.pairdrop.Plugins.ReceiveNotificationsPlugin.ReceiveNotificationsPlugin
+org/pear/pairdrop/UserInterface/AlertDialogFragment.java
+ org.pear.pairdrop.UserInterface.AlertDialogFragment
+ org.pear.pairdrop.UserInterface.AlertDialogFragment$AbstractBuilder
+ org.pear.pairdrop.UserInterface.AlertDialogFragment$Builder
+ org.pear.pairdrop.UserInterface.AlertDialogFragment$Callback
+org/pear/pairdrop/Backends/LanBackend/LanLink.java
+ org.pear.pairdrop.Backends.LanBackend.LanLink
+ org.pear.pairdrop.Backends.LanBackend.LanLink$ConnectionStarted
+ org.pear.pairdrop.Backends.LanBackend.LanLink$LinkDisconnectedCallback
+org/pear/pairdrop/Plugins/RunCommandPlugin/RunCommandActivity.java
+ org.pear.pairdrop.Plugins.RunCommandPlugin.RunCommandActivity
+org/pear/pairdrop_tp/databinding/PairingExplanationTextBinding.java
+ org.pear.pairdrop_tp.databinding.PairingExplanationTextBinding
+org/pear/pairdrop_tp/databinding/ListItemSystemvolumeBinding.java
+ org.pear.pairdrop_tp.databinding.ListItemSystemvolumeBinding
+org/pear/pairdrop/Plugins/MousePadPlugin/PointerAccelerationProfile.java
+ org.pear.pairdrop.Plugins.MousePadPlugin.PointerAccelerationProfile
+ org.pear.pairdrop.Plugins.MousePadPlugin.PointerAccelerationProfile$MouseDelta
+org/pear/pairdrop/Plugins/PingPlugin/PingPlugin.java
+ org.pear.pairdrop.Plugins.PingPlugin.PingPlugin
+org/pear/pairdrop/Device.java
+ org.pear.pairdrop.Device
+ org.pear.pairdrop.Device$1
+ org.pear.pairdrop.Device$2
+ org.pear.pairdrop.Device$3
+ org.pear.pairdrop.Device$DeviceType
+ org.pear.pairdrop.Device$PairStatus
+ org.pear.pairdrop.Device$PairingCallback
+ org.pear.pairdrop.Device$PluginsChangedListener
+ org.pear.pairdrop.Device$SendPacketStatusCallback
+org/pear/pairdrop/Plugins/SftpPlugin/AndroidFileSystemView.java
+ org.pear.pairdrop.Plugins.SftpPlugin.AndroidFileSystemView
+org/pear/pairdrop_tp/databinding/PreferenceWithButtonBinding.java
+ org.pear.pairdrop_tp.databinding.PreferenceWithButtonBinding
+org/pear/pairdrop/UserInterface/StartActivityAlertDialogFragment.java
+ org.pear.pairdrop.UserInterface.StartActivityAlertDialogFragment
+ org.pear.pairdrop.UserInterface.StartActivityAlertDialogFragment$1
+ org.pear.pairdrop.UserInterface.StartActivityAlertDialogFragment$Builder
+org/pear/pairdrop/Plugins/MousePadPlugin/KeyListenerView.java
+ org.pear.pairdrop.Plugins.MousePadPlugin.KeyListenerView
+org/pear/pairdrop/Plugins/RemoteKeyboardPlugin/RemoteKeyboardService.java
+ org.pear.pairdrop.Plugins.RemoteKeyboardPlugin.RemoteKeyboardService
+org/pear/pairdrop_tp/databinding/ActivityBigscreenBinding.java
+ org.pear.pairdrop_tp.databinding.ActivityBigscreenBinding
+org/pear/pairdrop/Backends/BluetoothBackend/BluetoothLinkProvider.java
+ org.pear.pairdrop.Backends.BluetoothBackend.BluetoothLinkProvider
+ org.pear.pairdrop.Backends.BluetoothBackend.BluetoothLinkProvider$1
+ org.pear.pairdrop.Backends.BluetoothBackend.BluetoothLinkProvider$ClientConnect
+ org.pear.pairdrop.Backends.BluetoothBackend.BluetoothLinkProvider$ClientConnect$1
+ org.pear.pairdrop.Backends.BluetoothBackend.BluetoothLinkProvider$ClientRunnable
+ org.pear.pairdrop.Backends.BluetoothBackend.BluetoothLinkProvider$ServerRunnable
+org/pear/pairdrop/UserInterface/PluginSettingsListFragment.java
+ org.pear.pairdrop.UserInterface.PluginSettingsListFragment
+ org.pear.pairdrop.UserInterface.PluginSettingsListFragment$1
+org/pear/pairdrop/Plugins/MprisReceiverPlugin/MprisReceiverPlugin.java
+ org.pear.pairdrop.Plugins.MprisReceiverPlugin.MprisReceiverPlugin
+ org.pear.pairdrop.Plugins.MprisReceiverPlugin.MprisReceiverPlugin$1
+ org.pear.pairdrop.Plugins.MprisReceiverPlugin.MprisReceiverPlugin$MediaSessionChangeListener
+org/pear/pairdrop/Plugins/ConnectivityReportPlugin/SubscriptionState.java
+ org.pear.pairdrop.Plugins.ConnectivityReportPlugin.SubscriptionState
+org/pear/pairdrop/Plugins/SystemVolumePlugin/ItemGapDecoration.java
+ org.pear.pairdrop.Plugins.SystemVolumePlugin.ItemGapDecoration
+org/pear/pairdrop/UserInterface/DeviceFragment.java
+ org.pear.pairdrop.UserInterface.DeviceFragment
+ org.pear.pairdrop.UserInterface.DeviceFragment$1
+ org.pear.pairdrop.UserInterface.DeviceFragment$2
+org/pear/pairdrop/Helpers/StorageHelper.java
+ org.pear.pairdrop.Helpers.StorageHelper
+ org.pear.pairdrop.Helpers.StorageHelper$StorageInfo
+org/pear/pairdrop/Plugins/ClibpoardPlugin/ClipboardListener.java
+ org.pear.pairdrop.Plugins.ClibpoardPlugin.ClipboardListener
+ org.pear.pairdrop.Plugins.ClibpoardPlugin.ClipboardListener$ClipboardObserver
+org/pear/pairdrop/Plugins/FindMyPhonePlugin/FindMyPhoneSettingsFragment.java
+ org.pear.pairdrop.Plugins.FindMyPhonePlugin.FindMyPhoneSettingsFragment
+org/pear/pairdrop/Plugins/SftpPlugin/AndroidSshFile.java
+ org.pear.pairdrop.Plugins.SftpPlugin.AndroidSshFile
+ org.pear.pairdrop.Plugins.SftpPlugin.AndroidSshFile$1
+org/pear/pairdrop/Plugins/MousePadPlugin/KeyInputConnection.java
+ org.pear.pairdrop.Plugins.MousePadPlugin.KeyInputConnection
+org/pear/pairdrop_tp/databinding/ActivityPresenterBinding.java
+ org.pear.pairdrop_tp.databinding.ActivityPresenterBinding
+org/pear/pairdrop/Plugins/RunCommandPlugin/RunCommandWidgetDeviceSelector.java
+ org.pear.pairdrop.Plugins.RunCommandPlugin.RunCommandWidgetDeviceSelector
+org/pear/pairdrop/UserInterface/List/PluginItem.java
+ org.pear.pairdrop.UserInterface.List.PluginItem
+org/pear/pairdrop/Plugins/SystemVolumePlugin/Sink.java
+ org.pear.pairdrop.Plugins.SystemVolumePlugin.Sink
+ org.pear.pairdrop.Plugins.SystemVolumePlugin.Sink$UpdateListener
+org/pear/pairdrop/UserInterface/List/SetDefaultAppPluginListItem.java
+ org.pear.pairdrop.UserInterface.List.SetDefaultAppPluginListItem
+ org.pear.pairdrop.UserInterface.List.SetDefaultAppPluginListItem$Action
+org/pear/pairdrop/Plugins/SystemVolumePlugin/SinkItemHolder.java
+ org.pear.pairdrop.Plugins.SystemVolumePlugin.SinkItemHolder
+org/pear/pairdrop/Plugins/SharePlugin/ShareInfo.java
+ org.pear.pairdrop.Plugins.SharePlugin.ShareInfo
+org/pear/pairdrop/Plugins/MprisPlugin/ExtendedFragmentAdapter.java
+ org.pear.pairdrop.Plugins.MprisPlugin.ExtendedFragmentAdapter
+org/pear/pairdrop_tp/databinding/EditTextAlertDialogViewBinding.java
+ org.pear.pairdrop_tp.databinding.EditTextAlertDialogViewBinding
+org/pear/pairdrop/Plugins/SftpPlugin/RootFile.java
+ org.pear.pairdrop.Plugins.SftpPlugin.RootFile
+org/pear/pairdrop/KdeConnectBroadcastReceiver.java
+ org.pear.pairdrop.KdeConnectBroadcastReceiver
+org/pear/pairdrop/Helpers/NotificationHelper.java
+ org.pear.pairdrop.Helpers.NotificationHelper
+ org.pear.pairdrop.Helpers.NotificationHelper$Channels
+org/pear/pairdrop/Helpers/SecurityHelpers/RsaHelper.java
+ org.pear.pairdrop.Helpers.SecurityHelpers.RsaHelper
+org/pear/pairdrop/Plugins/ClibpoardPlugin/ClipboardPlugin.java
+ org.pear.pairdrop.Plugins.ClibpoardPlugin.ClipboardPlugin
+org/pear/pairdrop/Plugins/RemoteKeyboardPlugin/RemoteKeyboardPlugin.java
+ org.pear.pairdrop.Plugins.RemoteKeyboardPlugin.RemoteKeyboardPlugin
+org/pear/pairdrop/Helpers/DeviceHelper.java
+ org.pear.pairdrop.Helpers.DeviceHelper
+org/pear/pairdrop/Plugins/RunCommandPlugin/RunCommandWidgetDataProvider.java
+ org.pear.pairdrop.Plugins.RunCommandPlugin.RunCommandWidgetDataProvider
+org/pear/pairdrop/UserInterface/DeviceSettingsAlertDialogFragment.java
+ org.pear.pairdrop.UserInterface.DeviceSettingsAlertDialogFragment
+ org.pear.pairdrop.UserInterface.DeviceSettingsAlertDialogFragment$1
+ org.pear.pairdrop.UserInterface.DeviceSettingsAlertDialogFragment$Builder
+org/pear/pairdrop/DevicePacketQueue.java
+ org.pear.pairdrop.DevicePacketQueue
+ org.pear.pairdrop.DevicePacketQueue$1
+ org.pear.pairdrop.DevicePacketQueue$Item
+ org.pear.pairdrop.DevicePacketQueue$SendingThread
+org/pear/pairdrop/UserInterface/List/SmallEntryItem.java
+ org.pear.pairdrop.UserInterface.List.SmallEntryItem
+org/pear/pairdrop/UserInterface/EditTextAlertDialogFragment.java
+ org.pear.pairdrop.UserInterface.EditTextAlertDialogFragment
+ org.pear.pairdrop.UserInterface.EditTextAlertDialogFragment$Builder
+org/pear/pairdrop/Plugins/SftpPlugin/AndroidSafSshFile.java
+ org.pear.pairdrop.Plugins.SftpPlugin.AndroidSafSshFile
+ org.pear.pairdrop.Plugins.SftpPlugin.AndroidSafSshFile$1
+ org.pear.pairdrop.Plugins.SftpPlugin.AndroidSafSshFile$DocumentInfo
+org/pear/pairdrop/Plugins/SharePlugin/ShareSettingsFragment.java
+ org.pear.pairdrop.Plugins.SharePlugin.ShareSettingsFragment
+org/pear/pairdrop/Plugins/PluginFactory.java
+ org.pear.pairdrop.Plugins.PluginFactory
+ org.pear.pairdrop.Plugins.PluginFactory$LoadablePlugin
+ org.pear.pairdrop.Plugins.PluginFactory$PluginInfo
+org/pear/pairdrop/Plugins/MprisReceiverPlugin/MprisReceiverPlayer.java
+ org.pear.pairdrop.Plugins.MprisReceiverPlugin.MprisReceiverPlayer
+org/pear/pairdrop/Plugins/SystemVolumePlugin/SinkItemCallback.java
+ org.pear.pairdrop.Plugins.SystemVolumePlugin.SinkItemCallback
+org/pear/pairdrop/Helpers/TelephonyHelper.java
+ org.pear.pairdrop.Helpers.TelephonyHelper
+ org.pear.pairdrop.Helpers.TelephonyHelper$1
+ org.pear.pairdrop.Helpers.TelephonyHelper$ApnSetting
+ org.pear.pairdrop.Helpers.TelephonyHelper$ApnSetting$Builder
+ org.pear.pairdrop.Helpers.TelephonyHelper$LocalPhoneNumber
+ org.pear.pairdrop.Helpers.TelephonyHelper$SubscriptionCallback
+org/pear/pairdrop/Plugins/PresenterPlugin/PresenterPlugin.java
+ org.pear.pairdrop.Plugins.PresenterPlugin.PresenterPlugin
+org/pear/pairdrop_tp/databinding/ActivityNotificationFilterBinding.java
+ org.pear.pairdrop_tp.databinding.ActivityNotificationFilterBinding
+org/pear/pairdrop/UserInterface/List/EntryItem.java
+ org.pear.pairdrop.UserInterface.List.EntryItem
+org/pear/pairdrop_tp/databinding/ActivityShareBinding.java
+ org.pear.pairdrop_tp.databinding.ActivityShareBinding
+org/pear/pairdrop/Plugins/RunCommandPlugin/CommandEntry.java
+ org.pear.pairdrop.Plugins.RunCommandPlugin.CommandEntry
+org/pear/pairdrop_tp/databinding/ActivityRunCommandBinding.java
+ org.pear.pairdrop_tp.databinding.ActivityRunCommandBinding
+org/pear/pairdrop/UserInterface/TrustedNetworksActivity.java
+ org.pear.pairdrop.UserInterface.TrustedNetworksActivity
+org/pear/pairdrop/Plugins/MprisPlugin/MprisMediaSession.java
+ org.pear.pairdrop.Plugins.MprisPlugin.MprisMediaSession
+ org.pear.pairdrop.Plugins.MprisPlugin.MprisMediaSession$1
+ org.pear.pairdrop.Plugins.MprisPlugin.MprisMediaSession$2
+org/pear/pairdrop_tp/databinding/ActivityMousepadBinding.java
+ org.pear.pairdrop_tp.databinding.ActivityMousepadBinding
+org/pear/pairdrop/Plugins/SharePlugin/SendFileActivity.java
+ org.pear.pairdrop.Plugins.SharePlugin.SendFileActivity
+org/pear/pairdrop/Helpers/SMSHelper.java
+ org.pear.pairdrop.Helpers.SMSHelper
+ org.pear.pairdrop.Helpers.SMSHelper$Address
+ org.pear.pairdrop.Helpers.SMSHelper$Attachment
+ org.pear.pairdrop.Helpers.SMSHelper$Message
+ org.pear.pairdrop.Helpers.SMSHelper$MessageAccessException
+ org.pear.pairdrop.Helpers.SMSHelper$MessageLooper
+ org.pear.pairdrop.Helpers.SMSHelper$ThreadID
+ org.pear.pairdrop.Helpers.SMSHelper$TransportType
+org/pear/pairdrop/Plugins/MousePadPlugin/PointerAccelerationProfileFactory.java
+ org.pear.pairdrop.Plugins.MousePadPlugin.PointerAccelerationProfileFactory
+ org.pear.pairdrop.Plugins.MousePadPlugin.PointerAccelerationProfileFactory$1
+ org.pear.pairdrop.Plugins.MousePadPlugin.PointerAccelerationProfileFactory$DefaultProfile
+ org.pear.pairdrop.Plugins.MousePadPlugin.PointerAccelerationProfileFactory$PolynomialProfile
+ org.pear.pairdrop.Plugins.MousePadPlugin.PointerAccelerationProfileFactory$PowerProfile
+ org.pear.pairdrop.Plugins.MousePadPlugin.PointerAccelerationProfileFactory$SpeedBasedAccelerationProfile
+ org.pear.pairdrop.Plugins.MousePadPlugin.PointerAccelerationProfileFactory$SpeedBasedAccelerationProfile$TouchDeltaEvent
+org/pear/pairdrop/Backends/BluetoothBackend/ConnectionMultiplexer.java
+ org.pear.pairdrop.Backends.BluetoothBackend.ConnectionMultiplexer
+ org.pear.pairdrop.Backends.BluetoothBackend.ConnectionMultiplexer$Channel
+ org.pear.pairdrop.Backends.BluetoothBackend.ConnectionMultiplexer$ChannelInputStream
+ org.pear.pairdrop.Backends.BluetoothBackend.ConnectionMultiplexer$ChannelOutputStream
+ org.pear.pairdrop.Backends.BluetoothBackend.ConnectionMultiplexer$ListenThread
+org/pear/pairdrop/Plugins/SharePlugin/CompositeUploadFileJob.java
+ org.pear.pairdrop.Plugins.SharePlugin.CompositeUploadFileJob
+ org.pear.pairdrop.Plugins.SharePlugin.CompositeUploadFileJob$1
+ org.pear.pairdrop.Plugins.SharePlugin.CompositeUploadFileJob$SendPacketStatusCallback
+org/pear/pairdrop_tp/databinding/SystemVolumeFragmentBinding.java
+ org.pear.pairdrop_tp.databinding.SystemVolumeFragmentBinding
+org/pear/pairdrop/Plugins/FindMyPhonePlugin/FindMyPhoneReceiver.java
+ org.pear.pairdrop.Plugins.FindMyPhonePlugin.FindMyPhoneReceiver
+org/pear/pairdrop/Helpers/AppsHelper.java
+ org.pear.pairdrop.Helpers.AppsHelper
+org/pear/pairdrop_tp/databinding/ListItemEntryBinding.java
+ org.pear.pairdrop_tp.databinding.ListItemEntryBinding
+org/pear/pairdrop/UserInterface/PluginPreference.java
+ org.pear.pairdrop.UserInterface.PluginPreference
+ org.pear.pairdrop.UserInterface.PluginPreference$PluginPreferenceCallback
+org/pear/pairdrop_tp/databinding/WidgetRemotecommandpluginBinding.java
+ org.pear.pairdrop_tp.databinding.WidgetRemotecommandpluginBinding
+org/pear/pairdrop/Plugins/MprisPlugin/MprisMediaNotificationReceiver.java
+ org.pear.pairdrop.Plugins.MprisPlugin.MprisMediaNotificationReceiver
+org/pear/pairdrop/Backends/BluetoothBackend/BluetoothLink.java
+ org.pear.pairdrop.Backends.BluetoothBackend.BluetoothLink
+ org.pear.pairdrop.Backends.BluetoothBackend.BluetoothLink$1
+org/pear/pairdrop/Plugins/NotificationsPlugin/NotificationReceiver.java
+ org.pear.pairdrop.Plugins.NotificationsPlugin.NotificationReceiver
+ org.pear.pairdrop.Plugins.NotificationsPlugin.NotificationReceiver$InstanceCallback
+ org.pear.pairdrop.Plugins.NotificationsPlugin.NotificationReceiver$NotificationListener
+org/pear/pairdrop/Plugins/SftpPlugin/SftpPlugin.java
+ org.pear.pairdrop.Plugins.SftpPlugin.SftpPlugin
+ org.pear.pairdrop.Plugins.SftpPlugin.SftpPlugin$StorageInfo
+org/pear/pairdrop/Helpers/TrustedNetworkHelper.java
+ org.pear.pairdrop.Helpers.TrustedNetworkHelper
+org/pear/pairdrop/Plugins/SharePlugin/SharePlugin.java
+ org.pear.pairdrop.Plugins.SharePlugin.SharePlugin
+ org.pear.pairdrop.Plugins.SharePlugin.SharePlugin$1
+ org.pear.pairdrop.Plugins.SharePlugin.SharePlugin$Callback
+org/pear/pairdrop/Plugins/FindRemoteDevicePlugin/FindRemoteDevicePlugin.java
+ org.pear.pairdrop.Plugins.FindRemoteDevicePlugin.FindRemoteDevicePlugin
+org/pear/pairdrop_tp/databinding/ActivityClipboardFloatingBinding.java
+ org.pear.pairdrop_tp.databinding.ActivityClipboardFloatingBinding
+org/pear/pairdrop/BackgroundService.java
+ org.pear.pairdrop.BackgroundService
+ org.pear.pairdrop.BackgroundService$1
+ org.pear.pairdrop.BackgroundService$2
+ org.pear.pairdrop.BackgroundService$DeviceListChangedCallback
+ org.pear.pairdrop.BackgroundService$InstanceCallback
+ org.pear.pairdrop.BackgroundService$PluginCallback
+org/pear/pairdrop/Plugins/FindMyPhonePlugin/FindMyPhoneActivity.java
+ org.pear.pairdrop.Plugins.FindMyPhonePlugin.FindMyPhoneActivity
+org/pear/pairdrop/Plugins/SMSPlugin/SMSPlugin.java
+ org.pear.pairdrop.Plugins.SMSPlugin.SMSPlugin
+ org.pear.pairdrop.Plugins.SMSPlugin.SMSPlugin$1
+ org.pear.pairdrop.Plugins.SMSPlugin.SMSPlugin$2
+ org.pear.pairdrop.Plugins.SMSPlugin.SMSPlugin$MessageContentObserver
+org/pear/pairdrop/Plugins/PhotoPlugin/PhotoActivity.java
+ org.pear.pairdrop.Plugins.PhotoPlugin.PhotoActivity
+org/pear/pairdrop_tp/databinding/ListItemPluginHeaderBinding.java
+ org.pear.pairdrop_tp.databinding.ListItemPluginHeaderBinding
+org/pear/pairdrop/Plugins/SftpPlugin/AndroidSafFileSystemView.java
+ org.pear.pairdrop.Plugins.SftpPlugin.AndroidSafFileSystemView
+org/pear/pairdrop/Helpers/ContactsHelper.java
+ org.pear.pairdrop.Helpers.ContactsHelper
+ org.pear.pairdrop.Helpers.ContactsHelper$ContactNotFoundException
+ org.pear.pairdrop.Helpers.ContactsHelper$VCardBuilder
+ org.pear.pairdrop.Helpers.ContactsHelper$uID
+org/pear/pairdrop/Plugins/SftpPlugin/AndroidFileSystemFactory.java
+ org.pear.pairdrop.Plugins.SftpPlugin.AndroidFileSystemFactory
+org/pear/pairdrop/UserInterface/AppCompatPreferenceActivity.java
+ org.pear.pairdrop.UserInterface.AppCompatPreferenceActivity
+org/pear/pairdrop/UserInterface/List/SectionItem.java
+ org.pear.pairdrop.UserInterface.List.SectionItem
+org/pear/pairdrop/Plugins/NotificationsPlugin/NotificationsPlugin.java
+ org.pear.pairdrop.Plugins.NotificationsPlugin.NotificationsPlugin
+org/pear/pairdrop/Plugins/SharePlugin/ShareChooserTargetService.java
+ org.pear.pairdrop.Plugins.SharePlugin.ShareChooserTargetService
+org/pear/pairdrop/UserInterface/List/EntryItemWithIcon.java
+ org.pear.pairdrop.UserInterface.List.EntryItemWithIcon
+org/pear/pairdrop/UserInterface/CustomDevicesActivity.java
+ org.pear.pairdrop.UserInterface.CustomDevicesActivity
+ org.pear.pairdrop.UserInterface.CustomDevicesActivity$1
+ org.pear.pairdrop.UserInterface.CustomDevicesActivity$AddDeviceDialogCallback
+ org.pear.pairdrop.UserInterface.CustomDevicesActivity$DeletedCustomDevice
+org/pear/pairdrop/Plugins/SftpPlugin/SftpSettingsFragment.java
+ org.pear.pairdrop.Plugins.SftpPlugin.SftpSettingsFragment
+org/pear/pairdrop/Plugins/MprisReceiverPlugin/MprisReceiverCallback.java
+ org.pear.pairdrop.Plugins.MprisReceiverPlugin.MprisReceiverCallback
+org/pear/pairdrop/UserInterface/MainActivity.java
+ org.pear.pairdrop.UserInterface.MainActivity
+org/pear/pairdrop_tp/databinding/ActivityFindMyPhoneBinding.java
+ org.pear.pairdrop_tp.databinding.ActivityFindMyPhoneBinding
+org/pear/pairdrop/Plugins/SystemVolumePlugin/SystemVolumePlugin.java
+ org.pear.pairdrop.Plugins.SystemVolumePlugin.SystemVolumePlugin
+ org.pear.pairdrop.Plugins.SystemVolumePlugin.SystemVolumePlugin$SinkListener
+org/pear/pairdrop_tp/databinding/DevicesListBinding.java
+ org.pear.pairdrop_tp.databinding.DevicesListBinding
+org/pear/pairdrop_tp/databinding/ActivityMainBinding.java
+ org.pear.pairdrop_tp.databinding.ActivityMainBinding
+org/pear/pairdrop/Plugins/ClibpoardPlugin/ClipboardFloatingActivity.java
+ org.pear.pairdrop.Plugins.ClibpoardPlugin.ClipboardFloatingActivity
+org/pear/pairdrop_tp/databinding/PairingExplanationNotTrustedBinding.java
+ org.pear.pairdrop_tp.databinding.PairingExplanationNotTrustedBinding
+org/pear/pairdrop/UserInterface/DefaultSmsAppAlertDialogFragment.java
+ org.pear.pairdrop.UserInterface.DefaultSmsAppAlertDialogFragment
+ org.pear.pairdrop.UserInterface.DefaultSmsAppAlertDialogFragment$1
+ org.pear.pairdrop.UserInterface.DefaultSmsAppAlertDialogFragment$Builder
+org/pear/pairdrop/Plugins/SharePlugin/UploadNotification.java
+ org.pear.pairdrop.Plugins.SharePlugin.UploadNotification
+org/pear/pairdrop_tp/databinding/ActivityCustomDevicesBinding.java
+ org.pear.pairdrop_tp.databinding.ActivityCustomDevicesBinding
+org/pear/pairdrop_tp/databinding/PrivacyOptionsBinding.java
+ org.pear.pairdrop_tp.databinding.PrivacyOptionsBinding
+org/pear/pairdrop/Plugins/SharePlugin/ShareActivity.java
+ org.pear.pairdrop.Plugins.SharePlugin.ShareActivity
+org/pear/pairdrop/UserInterface/PermissionsAlertDialogFragment.java
+ org.pear.pairdrop.UserInterface.PermissionsAlertDialogFragment
+ org.pear.pairdrop.UserInterface.PermissionsAlertDialogFragment$1
+ org.pear.pairdrop.UserInterface.PermissionsAlertDialogFragment$Builder
+org/pear/pairdrop/Plugins/SftpPlugin/StoragePreference.java
+ org.pear.pairdrop.Plugins.SftpPlugin.StoragePreference
+ org.pear.pairdrop.Plugins.SftpPlugin.StoragePreference$OnLongClickListener
+org/pear/pairdrop/Helpers/IntentHelper.java
+ org.pear.pairdrop.Helpers.IntentHelper
+org/pear/pairdrop/UserInterface/PluginSettingsActivity.java
+ org.pear.pairdrop.UserInterface.PluginSettingsActivity
+org/pear/pairdrop/UserInterface/List/PairingDeviceItem.java
+ org.pear.pairdrop.UserInterface.List.PairingDeviceItem
+ org.pear.pairdrop.UserInterface.List.PairingDeviceItem$Callback
+org/pear/pairdrop/Backends/LoopbackBackend/LoopbackLinkProvider.java
+ org.pear.pairdrop.Backends.LoopbackBackend.LoopbackLinkProvider
+org/pear/pairdrop/Plugins/FindMyPhonePlugin/FindMyPhonePlugin.java
+ org.pear.pairdrop.Plugins.FindMyPhonePlugin.FindMyPhonePlugin
+ org.pear.pairdrop.Plugins.FindMyPhonePlugin.FindMyPhonePlugin$1
+org/pear/pairdrop/async/BackgroundJobHandler.java
+ org.pear.pairdrop.async.BackgroundJobHandler
+ org.pear.pairdrop.async.BackgroundJobHandler$MyThreadPoolExecutor
+org/pear/pairdrop/UserInterface/List/ListAdapter.java
+ org.pear.pairdrop.UserInterface.List.ListAdapter
+ org.pear.pairdrop.UserInterface.List.ListAdapter$Item
+org/pear/pairdrop/Backends/BasePairingHandler.java
+ org.pear.pairdrop.Backends.BasePairingHandler
+ org.pear.pairdrop.Backends.BasePairingHandler$PairStatus
+ org.pear.pairdrop.Backends.BasePairingHandler$PairingHandlerCallback
+org/pear/pairdrop/UserInterface/CustomDevicesAdapter.java
+ org.pear.pairdrop.UserInterface.CustomDevicesAdapter
+ org.pear.pairdrop.UserInterface.CustomDevicesAdapter$1
+ org.pear.pairdrop.UserInterface.CustomDevicesAdapter$Callback
+ org.pear.pairdrop.UserInterface.CustomDevicesAdapter$ItemTouchHelperCallback
+ org.pear.pairdrop.UserInterface.CustomDevicesAdapter$ItemTouchHelperCallback$Callback
+ org.pear.pairdrop.UserInterface.CustomDevicesAdapter$SwipeableViewHolder
+ org.pear.pairdrop.UserInterface.CustomDevicesAdapter$ViewHolder
+org/pear/pairdrop_tp/databinding/ToolbarBinding.java
+ org.pear.pairdrop_tp.databinding.ToolbarBinding
+org/pear/pairdrop/UserInterface/ThemeUtil.java
+ org.pear.pairdrop.UserInterface.ThemeUtil
+org/pear/pairdrop/Helpers/LongSummaryPreferenceCategory.java
+ org.pear.pairdrop.Helpers.LongSummaryPreferenceCategory
+org/pear/pairdrop/UserInterface/PairingFragment.java
+ org.pear.pairdrop.UserInterface.PairingFragment
+ org.pear.pairdrop.UserInterface.PairingFragment$1
+org/pear/pairdrop_tp/databinding/ActivityPluginSettingsBinding.java
+ org.pear.pairdrop_tp.databinding.ActivityPluginSettingsBinding
+org/pear/pairdrop_tp/databinding/ListItemCategoryBinding.java
+ org.pear.pairdrop_tp.databinding.ListItemCategoryBinding
+org/pear/pairdrop_tp/databinding/FragmentStoragePreferenceDialogBinding.java
+ org.pear.pairdrop_tp.databinding.FragmentStoragePreferenceDialogBinding
+org/pear/pairdrop_tp/BuildConfig.java
+ org.pear.pairdrop_tp.BuildConfig
+org/pear/pairdrop/Plugins/RunCommandPlugin/RunCommandUrlActivity.java
+ org.pear.pairdrop.Plugins.RunCommandPlugin.RunCommandUrlActivity
+org/pear/pairdrop/Plugins/Plugin.java
+ org.pear.pairdrop.Plugins.Plugin
+org/pear/pairdrop/Plugins/PhotoPlugin/PhotoPlugin.java
+ org.pear.pairdrop.Plugins.PhotoPlugin.PhotoPlugin
+org/pear/pairdrop/Plugins/SystemVolumePlugin/SystemVolumeFragment.java
+ org.pear.pairdrop.Plugins.SystemVolumePlugin.SystemVolumeFragment
+ org.pear.pairdrop.Plugins.SystemVolumePlugin.SystemVolumeFragment$RecyclerSinkAdapter
+org/pear/pairdrop/Helpers/MediaStoreHelper.java
+ org.pear.pairdrop.Helpers.MediaStoreHelper
