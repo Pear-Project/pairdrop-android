@@ -194,12 +194,12 @@ public class SettingsFragment extends PreferenceFragmentCompat {
         bug.setIntent(new Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.report_bug_url))));
         screen.addPreference(bug);
 
-        Preference donate = new Preference(context);
-        donate.setTitle(R.string.donate);
-        donate.setPersistent(false);
-        donate.setIcon(R.drawable.ic_baseline_attach_money_24);
-        donate.setIntent(new Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.donate_url))));
-        screen.addPreference(donate);
+        //Preference donate = new Preference(context);
+        //donate.setTitle(R.string.donate);
+        //donate.setPersistent(false);
+        //donate.setIcon(R.drawable.ic_baseline_attach_money_24);
+        //donate.setIntent(new Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.donate_url))));
+        //screen.addPreference(donate);
 
         Preference source = new Preference(context);
         source.setTitle(R.string.source_code);

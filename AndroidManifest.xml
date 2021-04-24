@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="org.pear.pairdrop_tp"
-    android:versionCode="11100"
+    android:versionCode="11102"
     android:versionName="11.1.0">
 
     <supports-screens
